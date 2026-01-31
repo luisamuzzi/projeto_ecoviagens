@@ -1,0 +1,22 @@
+[project]
+name = "projeto-ecoviagens"
+version = "0.1.0"
+description = "Modelagem de dados, desenvolvimento de KPIs e dashboards de acompanhamento para empresa de turismo sustentável."
+authors = [
+    {name = "Luisa Muzzi",email = "luisamuzzi29@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.13.7"
+dependencies = [
+    "pandas (>=3.0.0,<4.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "psycopg2 (>=2.9.11,<3.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "schedule (>=1.2.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
