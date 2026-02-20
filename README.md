@@ -27,7 +27,7 @@ Leia mais sobre o projeto abaixo.
 
 - [1. Contexto](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#1-contexto)
 - [2. Premissas assumidas para a análise](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#2-premissas-assumidas-para-a-an%C3%A1lise)
-- [3. Ferramentas utilizadas](https://github.com/luisamuzzi/pro-jeto_ecoviagens?tab=readme-ov-file#3-ferramentas-utilizadas)
+- [3. Ferramentas utilizadas](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#3-ferramentas-utilizadas)
 - [4. Estratégia de solução](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#4-estrat%C3%A9gia-de-solu%C3%A7%C3%A3o)
 - [5. O produto final do projeto](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#5-o-produto-final-do-projeto)
 - [6. Principais insights de dados](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#6-principais-insights-de-dados)
