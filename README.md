@@ -25,15 +25,15 @@ Leia mais sobre o projeto abaixo.
 
 ### Índice
 
-1. Contexto
-2. Premissas assumidas para a análise
-3. Ferramentas utilizadas
-4. Estratégia de solução
-5. O produto final do projeto
-6. Principais insights de dados
-7. Conclusão
-8. Próximos passos
-9. Referências
+[1. Contexto](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#1-contexto)
+[2. Premissas assumidas para a análise](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#2-premissas-assumidas-para-a-an%C3%A1lise)
+[3. Ferramentas utilizadas](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#3-ferramentas-utilizadas)
+[4. Estratégia de solução](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#4-estrat%C3%A9gia-de-solu%C3%A7%C3%A3o)
+[5. O produto final do projeto](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#5-o-produto-final-do-projeto)
+[6. Principais insights de dados](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#6-principais-insights-de-dados)
+[7. Conclusão](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#7-conclus%C3%A3o)
+[8. Próximos passos](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#8-pr%C3%B3ximos-passos)
+[9. Referências](https://github.com/luisamuzzi/projeto_ecoviagens?tab=readme-ov-file#9-refer%C3%AAncias)
 
 ### 1. Contexto
 
@@ -74,7 +74,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
     
     O modelo de dados proposto:
 
-    ![DER](images/DER - EcoViagens.png)
+    ![DER](images/DER%20-%20EcoViagens.png)
     
     Detalhamento das entidades:
     
@@ -193,7 +193,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
     
 3. **Análise de dados via SQL**
     
-    Nessa etapa, os dados do banco de dados foram analisados via consultas SQL para responder a perguntas de negócio específicas, visando auxiliar as equipes de negócio, marketing e experiência do cliente. O script comentado, com explicações do cálculo e seu objetivo, pode ser visto aqui: Script SQL.
+    Nessa etapa, os dados do banco de dados foram analisados via consultas SQL para responder a perguntas de negócio específicas, visando auxiliar as equipes de negócio, marketing e experiência do cliente. O script comentado, com explicações do cálculo e seu objetivo, pode ser visto aqui: [Script SQL](sql_scrips/perguntas_negocio.sql).
     
     As seguintes informações foram obtidas:
     
@@ -201,7 +201,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Monitorar o crescimento da receita do negócio e identificar sazonalidades.
         
-        ![image.png](attachment:ec77a5ca-f1fc-47e8-8815-4c90804406ce:image.png)
+        ![image.png](images/sql1.png)
         
         A base de dados contém dados de um ano de funcionamento da EcoViagens, portanto, ainda não é possível fazer considerações sobre variações sazonais. 
         
@@ -213,7 +213,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Identificar se os clientes estão investindo mais em experiências premium ou optando por opções econômicas.
         
-        ![image.png](attachment:d916c987-6212-4c22-beb6-5cf1bd0fa07e:image.png)
+        ![image.png](images/sql2.png)
         
         A análise do valor médio gasto por pessoa permitiu a comparação com o preço de venda médio de cada oferta para identificar se a preferência dos clientes era por alternativas mais econômicas ou experiências premium.
         
@@ -223,7 +223,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Saber qual tipo de oferta é mais popular para orientar a divulgação dessas experiências no site da EcoViagens.
         
-        ![image.png](attachment:bffab187-817b-45af-87d7-a79d5967d70f:image.png)
+        ![image.png](images/sql3.png)
         
         A popularidade é ligeiramente maior para hospedagens. A popularidade relativamente equilibrada mostra que ambos os tipos de oferta são relevantes para os usuários. Portanto, recomenda-se que tanto ofertas de hospedagem quanto de atividades sejam promovidas no site da EcoViagens, com possível destaque para hospedagens.
         
@@ -231,7 +231,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Medir o engajamento, satisfação e fidelização com as experiências oferecidas.
         
-        ![image.png](attachment:303a9430-e422-46ba-880d-b60393a56633:image.png)
+        ![image.png](images/sql4.png)
         
         A taxa de fidelização indicou que quase 1/4 da base de clientes retorna para novas experiências na EcoViagens. O número não é elevado e há espaço para crescimento e aumento do LTV por meio de estratégias como: implementação de programas de fidelidade, descontos progressivos e benefícios exclusivos para clientes recorrentes; monitoramento da taxa para verificar o impacto de melhorias na experiência do usuário e campanhas de marketing; comparar o perfil dos clientes recorrentes e únicos para identificar possíveis diferenças e oportunidades de melhoria.
         
@@ -239,7 +239,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Identificar as ofertas com o melhor desempenho percebido pelo cliente.
         
-        ![image.png](attachment:af297849-cf44-4ad1-873b-78afde041f3a:image.png)
+        ![image.png](images/sql5.png)
         
         Notas de avaliação maiores mostram que a oferta está satisfazendo mais os clientes e possui maior valor percebido. Portanto, ofertas mais bem avaliadas podem ser destacadas no site para atrair mais usuários e potencializar conversões. Além disso, ofertas mal avaliadas devem receber atenção do time operacional para identificar motivos das notas baixas e promover ações de melhoria.
         
@@ -247,7 +247,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Garantir que as ofertas estejam atreladas aos valores da marca (impacto ambiental positivo).
         
-        ![image.png](attachment:271b4619-fcc0-4df3-ac72-43c533e61288:image.png)
+        ![image.png](images/sql6.png)
         
         O índice de práticas sustentáveis está abaixo da meta da empresa (90%). Um índice elevado é fundamental para refletir o compromisso e propósito da EcoViagens com o turismo sustentável. Recomenda-se o monitoramento contínuo para identificar a necessidade de ações educativas ou de incentivo a adoção de práticas sustentáveis.
         
@@ -255,7 +255,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Identificar quais práticas sustentáveis são mais valorizadas e têm maior impacto no posicionamento e narrativa da EcoViagens.
         
-        ![image.png](attachment:02ac18bc-92b7-4e22-b97d-c848cb7bff4d:image.png)
+        ![image.png](images/sql7.png)
         
         A listagem de práticas sustentáveis mais populares pode ser usada pelo time de marketing na criação de material educativo para incentivar a adoção dessas práticas pelos nossos parceiros. Além disso, pode ser usada para destaque das práticas mais valorizadas nos canais de comunicação.
         
@@ -263,7 +263,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Auxiliar na criação de campanhas de reengajamento no momento ideal e evitar churn.
         
-        ![image.png](attachment:1be76337-d459-45ec-b9c3-9e7ed9ac976e:image.png)
+        ![image.png](images/sql8.png)
         
         Esse indicador pode ser usada pelo time de CRM para identificação do momento certo de realizar campanhas de reengajamento, aumentando a eficiência das ações e diminuindo o churn.
         
@@ -271,13 +271,13 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         Objetivo: Premiar os melhores parceiros e oferecer treinamento aos demais.
         
-        ![image.png](attachment:d617993e-1fc1-4518-b820-65a034c69cb6:image.png)
+        ![image.png](images/sql9.png)
         
         A listagem obtida pode ser usada pelo time de operações em premiações aos melhores operadores e direcionamento de treinamentos aos mais mal avaliados. 
         
 4. **Dashboards de acompanhamento do desempenho do negócio**
     
-    Nessa etapa foram elaborados cinco dashboards de monitoramento por meio de conexão direta do Power BI com os dados no PostgreSQL. Eles podem ser vistos neste [relatório em Power BI](https://app.powerbi.com/view?r=eyJrIjoiYjAwMzUxOGQtYzgxMS00NDU3LTk1M2QtYjY4YTUxYmUyMTY0IiwidCI6ImUyZjc3ZDAwLTAxNjMtNGNmNi05MmIwLTQ4NGJhZmY5ZGY3ZCJ9). Além disso, as métricas apresentadas nos dashboards foram verificadas e validadas por meio de consultas SQL para garantir a consistência das informações apresentadas (Script validação SQL).
+    Nessa etapa foram elaborados cinco dashboards de monitoramento por meio de conexão direta do Power BI com os dados no PostgreSQL. Eles podem ser vistos neste [relatório em Power BI](https://app.powerbi.com/view?r=eyJrIjoiYjAwMzUxOGQtYzgxMS00NDU3LTk1M2QtYjY4YTUxYmUyMTY0IiwidCI6ImUyZjc3ZDAwLTAxNjMtNGNmNi05MmIwLTQ4NGJhZmY5ZGY3ZCJ9). Além disso, as métricas apresentadas nos dashboards foram verificadas e validadas por meio de consultas SQL para garantir a consistência das informações apresentadas [Script validação SQL](sql_scrips/validacao_bi.sql).
     
     - **Visão Operação:**
         
@@ -289,7 +289,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         O acompanhamento do percentual de cancelamento permite identificar se há tendências de aumento significativo nessa taxa e se é necessário investigar motivos para os clientes estarem cancelando, como insatisfação com a qualidade dos serviços ou problemas operacionais.
         
-        ![image.png](attachment:c3862e73-fa1d-40ef-8b64-07bfb1aa0ca7:image.png)
+        ![image.png](images/dash1.png)
         
     - **Visão Clientes:**
         
@@ -299,7 +299,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         A caracterização do perfil do cliente permite segmentar ações por gênero e idade.
         
-        ![image.png](attachment:3539cc20-724c-4399-a2f8-d761dea87c76:image.png)
+        ![image.png](images/dash2.png)
         
     - **Visão Ofertas:**
         
@@ -315,7 +315,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         O acompanhamento da nota média, receita e quantidade de reservas por tipo de oferta permite verificar se as ofertas mais bem avaliadas são também as mais rentáveis e populares. Além disso, o detalhamento por oferta permite identificar ofertas específicas com as melhores e piores performances, orientando ações de melhoria das ofertas de baixa performance e possibilitando verificar o que as melhores ofertas têm em comum.
         
-        ![image.png](attachment:1874c122-634e-4261-98c3-101c8c344b65:image.png)
+        ![image.png](images/dash3.png)
         
     - **Visão Operadores:**
         
@@ -323,7 +323,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         O acompanhamento da popularidade, receita e avaliação dos operadores permite identificar se boas avaliações refletem em maior popularidade e receita. Além disso, a visão detalhada por operador identifica operadores com melhor e pior desempenho, permitindo o direcionamento de ações como premiações aos melhores e treinamento aos mais mal avaliados.
         
-        ![image.png](attachment:e269a3b1-7d70-4033-bed1-e4ecdf453961:image.png)
+        ![image.png](images/dash4.png)
         
     - **Visão Sustentabilidade:**
         
@@ -335,7 +335,7 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
         
         A visão detalhada por oferta permite identificar as ofertas que oferecem mais práticas sustentáveis e aquelas que não estão alinhadas ao propósito do negócio (não oferecem nenhuma prática sustentável). Além disso, permite verificar se há relação entre a quantidade de práticas sustentáveis oferecidas e o preço da oferta, sua nota de avaliação, a quantidade de reservas e a receita.
         
-        ![image.png](attachment:c23c5223-e603-4de6-a593-cf635acc7492:image.png)
+        ![image.png](images/dash5.png)
         
 
 ### 5. O produto final do projeto
@@ -343,9 +343,9 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
 Conforme descrito anteriormente, as principais entregas do projeto foram:
 
 - O modelo de entidade relacionamento para o banco de dados.
-- O script Python para automação da carga de dados no banco de dados.
+- O [script Python](src/pipeline.py) para automação da carga de dados no banco de dados.
 - A proposta de KPIs a serem monitorados.
-- O script SQL com as respostas às perguntas de negócio.
+- O [script SQL](sql_scrips/perguntas_negocio.sql) com as respostas às perguntas de negócio.
 - Um [relatório em Power BI](https://app.powerbi.com/view?r=eyJrIjoiYjAwMzUxOGQtYzgxMS00NDU3LTk1M2QtYjY4YTUxYmUyMTY0IiwidCI6ImUyZjc3ZDAwLTAxNjMtNGNmNi05MmIwLTQ4NGJhZmY5ZGY3ZCJ9) para acompanhamento dos KPIs.
 - Uma [apresentação executiva](https://www.canva.com/design/DAHBt1sDoSc/tuKTbycc5F7xqb_LT2LkGQ/edit?utm_content=DAHBt1sDoSc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) contendo os principais insights e recomendações obtidos com base na análise dos dados.
 
@@ -353,7 +353,7 @@ Conforme descrito anteriormente, as principais entregas do projeto foram:
 
 - **A receita tem comportamento instável, apresentando 6 meses de queda durante o período de 12 meses analisados:**
     
-    ![image.png](attachment:8cbf86c1-8bb1-46a0-98fe-b511f0b2da9c:image.png)
+    ![image.png](images/insights1.png)
     
     Não há tendência de crescimento contínuo. Em alguns meses observa-se quedas de até 14% em relação ao mês anterior.
     
@@ -363,15 +363,16 @@ Conforme descrito anteriormente, as principais entregas do projeto foram:
     
     - A curto prazo: promoções e pacotes exclusivos para os meses de baixa demanda.
     - A longo prazo: análise preditiva com base em dados históricos para prever quedas na receita e planejar ações antecipadamente.
+
 - **A taxa geral de fidelização é baixa (23%). No cenário anual, a taxa caiu de 15,5% em 2024 para 11,2% em 2025:**
     
     2024:
     
-    ![image.png](attachment:dfb4bf2a-c279-4018-9e2d-3ae175da808e:image.png)
+    ![image.png](images/insights2.png)
     
     2025:
     
-    ![image.png](attachment:eec0c187-ca25-4575-94cb-217b28829d0a:image.png)
+    ![image.png](images/insights3.png)
     
     Quando segregamos por tipo de atividade, observa-se uma fidelização maior em ofertas do tipo “hospedagem”. No entanto, a taxa de fidelização dos clientes é baixa, ou seja, os clientes não estão percebendo valor suficiente para retornar.
     
@@ -382,9 +383,10 @@ Conforme descrito anteriormente, as principais entregas do projeto foram:
     - Programas de descontos progressivos para clientes recorrentes.
     - Envio automático de ofertas de descontos para novas reservas.
     - Revisão do posicionamento das “atividades”, pois possuem menor taxa de fidelização em relação às “hospedagens” e criar pacotes integrados de hospedagem e atividade.
+
 - **A diferença entre o ticket médio dos clientes recorrentes (R$ 853,50) e dos clientes únicos (R$ 823,69) é pequena (apenas R$ 29,81):**
     
-    ![image.png](attachment:0b47f005-1c4e-4512-b5f8-123bc3586955:image.png)
+    ![image.png](images/insights4.png)
     
     A diferença entre o ticket médio dos clientes recorrentes e dos clientes únicos é praticamente insignificante. Isso mostra que não estamos tendo retorno financeiro ao fidelizar clientes.
     
@@ -395,9 +397,10 @@ Conforme descrito anteriormente, as principais entregas do projeto foram:
     - Oferta de pacotes complementares no ato da reserva, como transporte, seguro viagem e alimentação.
     - Oferta de pacotes premium ou personalizados.
     - Estímulo à compra de pacotes em grupo ou família.
+    
 - **Um maior número de práticas sustentáveis não gera maior receita. Ofertas com poucas ou nenhuma prática sustentável apresentam os melhores resultados financeiros:**
     
-    ![image.png](attachment:39bfa9bb-eac5-457f-9247-b9c4e76ce524:image.png)
+    ![image.png](images/insights5.png)
     
     A quantidade de práticas sustentáveis oferecidas não reflete em aumento de receita. O que indica que os clientes não estão vendo valor na proposta de sustentabilidade.
     
