@@ -6,7 +6,7 @@ Esse projeto analisou dados de reservas, clientes, ofertas e práticas sustentá
 
 - Modelagem de dados da plataforma da EcoViagens:
     
-    Essa etapa resultou num Diagrama Entidade-Relacionamento descrevendo a estrutura das tabelas que compõe a base de dados e um ![script Python](src\pipeline.py) para carga automática dos dados em banco de dados PostgreSQL.
+    Essa etapa resultou num Diagrama Entidade-Relacionamento descrevendo a estrutura das tabelas que compõe a base de dados e um [script Python](src/pipeline.py) para carga automática dos dados em banco de dados PostgreSQL.
     
 - Proposição de KPIs estratégicos que permitissem avaliar o desempenho do negócio, entender o comportamento dos clientes e guiar melhorias dos serviços:
     
@@ -14,7 +14,7 @@ Esse projeto analisou dados de reservas, clientes, ofertas e práticas sustentá
     
 - Análise de dados via SQL para mapear o desempenho da empresa em termos de receita, fidelização de clientes, avaliações e popularidade de práticas sustentáveis.
     
-    Essa etapa resultou em insights para os times de negócio, marketing e experiência do cliente, além da documentação das consultas por meio de um ![script SQL](sql_scrips\perguntas_negocio.sql) contendo o objetivo e metodologia de cada consulta.
+    Essa etapa resultou em insights para os times de negócio, marketing e experiência do cliente, além da documentação das consultas por meio de um [script SQL](sql_scrips/perguntas_negocio.sql) contendo o objetivo e metodologia de cada consulta.
     
 - Elaboração de dashboards de acompanhamento dos KPIs propostos na etapa 2.
     
@@ -73,8 +73,8 @@ Esse projeto, portanto, percorreu quatro etapas: modelagem e armazenamento dos d
     A definição de um modelo de dados robusto é fundamental para garantir a consistência e eficiência do banco de dados, além de permitir a sua escalabilidade e ser a base para a definição de métricas e KPIs estratégicos.
     
     O modelo de dados proposto:
-    
-    ![DER - EcoViagens.png](attachment:7c6e3f51-8479-4122-b54d-e2860338b1c8:DER_-_EcoViagens.png)
+
+    ![DER](images/DER - EcoViagens.png)
     
     Detalhamento das entidades:
     
